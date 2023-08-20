@@ -1414,6 +1414,7 @@ flex-direction: column;
 
 .mobile-social-links-list{
 gap: 56px;
+margin-top: 48px;
 }
 
 .toggle-btn-close{
