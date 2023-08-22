@@ -321,6 +321,12 @@ nav {
   }
 }
 
+
+@media screen and (min-width: 1159px){ @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){ .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+}}}
 .hero-container {
   text-align: center;
 }
@@ -427,7 +433,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1157px) {
+@media screen and (min-width: 1158px) {
   .advantages {
     flex-direction: row;
     flex-wrap: wrap;
@@ -516,6 +522,12 @@ nav {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .advantages-icon-container {
+    margin-bottom: 8px;
   }
 }
 
